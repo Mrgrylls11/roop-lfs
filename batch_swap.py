@@ -172,7 +172,7 @@
 
 
 
-%%writefile batch_swap_v2.py
+
 import os
 import sys
 import subprocess
