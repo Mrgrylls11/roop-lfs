@@ -54,7 +54,7 @@ def setup_environment():
         
     inswapper_512_path = os.path.join(ROOP_DIR, 'inswapper_128_fp16.onnx')
     if not os.path.exists(inswapper_512_path):
-        run_command(f'wget -q -N -P "{ROOP_DIR}" https://huggingface.co/mapooon/roop/resolve/main/inswapper_128_fp16.onnx', "--- Downloading 512px Roop Model ---")
+        run_command(f'wget -q -N -P "{ROOP_DIR}" https://huggingface.co/fofr/comfyui/resolve/c3c85ffdb31991d0b282a2d4d474dcbd6fe81aef/insightface/inswapper_128_fp16.onnx', "--- Downloading 512px Roop Model ---")
     else:
         print("--- 512px Roop Model already exists. ---")
         
